@@ -3,25 +3,12 @@
 public class main {
     public static void main(String[] args) {
 
-        int n = 7;
-        int suma = 0;
+        int a=2; int b=5;
         int pow = 1;
-        int inmultire = 1;
-        for (int i = 0; i < n; i++)
+        for(int i=0;i<b;i++)
         {
-            pow = 3*pow;
-
-            inmultire = 2 * (pow);
-
+           pow = pow*a;
         }
-
-        System.out.println(inmultire);
-
-        while(inmultire!=0)
-        {
-            suma = suma + inmultire % 10;
-           inmultire= inmultire / 10;
-        }
-        System.out.println(suma);
+        System.out.println(pow);
     }
     }
