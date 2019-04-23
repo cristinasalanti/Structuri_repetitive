@@ -1,14 +1,16 @@
-
-// 2*(3^n)
 public class main {
     public static void main(String[] args) {
 
-        int a=2; int b=5;
-        int pow = 1;
-        for(int i=0;i<b;i++)
+        int n=6;
+        for (int i=1;i<=n;i++)
         {
-           pow = pow*a;
+            for(int j=1;j<=i;j++)
+            {
+                System.out.printf(j+ " ");
+
+            }
+            System.out.println();
         }
-        System.out.println(pow);
+
     }
     }
