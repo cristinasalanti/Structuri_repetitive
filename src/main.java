@@ -3,6 +3,7 @@
 
        int n = 10;
         String numar;
+        
        switch(n) {
 
                case 0: numar = "zero";
