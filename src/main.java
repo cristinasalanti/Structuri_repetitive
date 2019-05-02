@@ -1,35 +1,21 @@
     public class main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-       int n = 10;
-        String numar;
-        
-       switch(n) {
+            int n =15;
 
-               case 0: numar = "zero";
-               break;
-           case 1:  numar = "unu";
-               break;
-               case 2:  numar = "doi";
-               break;
-           case 3:  numar = "trei";
-               break;
-           case 4:  numar = "patru";
-               break;
-           case 5:  numar = "cinci";
-               break;
-           case 6:  numar = "sase";
-               break;
-           case 7:  numar = "sapte";
-               break;
-           case 8:  numar = "8";
-               break;
-           case 9:  numar = "9";
-               break;
-           default: numar = "numar gresit";
-               break;
-       }
-        System.out.println(numar);
+            if (n == 0) System.out.println("zero");
 
-    }
+                else if (n == 1) System.out.println("unu");
+                else if (n == 2) System.out.println("doi");
+               else if (n == 3) System.out.println("trei");
+                else if(n == 4) System.out.println("patru");
+                else if(n == 5) System.out.println("cinci");
+                 else if (n == 6) System.out.println("sase");
+                 else if (n == 7) System.out.println("sapte");
+                 else if (n == 8) System.out.println("opt");
+                 else if(n == 9) System.out.println("noua");
+
+            else System.out.println("numar gresit");
+
+        }
     }
