@@ -1,21 +1,34 @@
-public class main {
+    public class main {
     public static void main(String[] args) {
 
-        int[] sir= new int[]{2,3,7,8,6,2,10,3,7,4,6,9,10};
-        int cnt=0;
-        int suma=0;
-            for(int i=0;i<sir.length;i++)
-            {
-                if(sir[i]%2==0)
-                {
-                    cnt++;
-                    if(cnt<=5)
-                    {
-                        suma = suma + sir[i];
-                    }
-                }
-            }
-            System.out.println(suma);
+       int n = 10;
+        String numar;
+       switch(n) {
+
+               case 0: numar = "zero";
+               break;
+           case 1:  numar = "unu";
+               break;
+               case 2:  numar = "doi";
+               break;
+           case 3:  numar = "trei";
+               break;
+           case 4:  numar = "patru";
+               break;
+           case 5:  numar = "cinci";
+               break;
+           case 6:  numar = "sase";
+               break;
+           case 7:  numar = "sapte";
+               break;
+           case 8:  numar = "8";
+               break;
+           case 9:  numar = "9";
+               break;
+           default: numar = "numar gresit";
+               break;
+       }
+        System.out.println(numar);
 
     }
     }
