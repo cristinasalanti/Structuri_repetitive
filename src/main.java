@@ -1,31 +1,24 @@
         public class main {
             public static void main(String[] args) {
 
-            int n=1234567891;
-            int m;
-           int i=-1;
-            int sumapare=0;
-            int sumaimpare=0;
-            int x=0;
-           while(n!=0) {
-
-                    x = n%10;
-                    i++;
-                    if(i%2 ==0 )
-                        sumapare = sumapare+x;
-                    else sumaimpare = sumaimpare + x;
-
-                    n = n/10;
-
-
-
-           }
-
-                m = sumapare-sumaimpare;
-                System.out.println(m);
-
+            char n = 'V';
+            String puncte;
+            switch (n)
+            {
+                case 'N': puncte = "N";
+                break;
+                case 'E': puncte = "E";
+                    break;
+                case 'V': puncte = "V";
+                    break;
+                case 'S': puncte = "S";
+                    break;
+                default: puncte = "nu este un punct cardinal";
+                break;
+            }
+                System.out.println(puncte);
                 }
             }
 
-            
+
 
