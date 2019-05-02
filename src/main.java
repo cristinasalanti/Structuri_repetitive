@@ -1,12 +1,15 @@
     public class main {
         public static void main(String[] args) {
 
-            int n =6;
+            int n=6;
 
-            for (int i = 0; i < n; i++) {
-                System.out.println("go");
+            while(n>0 && n<7)
+            {
+                n--;
+                System.out.println("going");
+
 
             }
-            System.out.println("gata");
+
         }
     }
